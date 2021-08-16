@@ -22,6 +22,12 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 1px solid green;
+}
+
 h1,
 h2,
 h3,
@@ -163,8 +169,17 @@ ul {
 
 /* Заголовок секции о нашей работе и команде */
 
+.team-background {
+  background-color: #f5f4fa;
+}
+
+.work-section {
+  padding-top: 0;
+}
+
 .work-title,
 .team-title {
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
 }
@@ -192,7 +207,13 @@ ul {
 /* Подвал страницы */
 
 .bottom {
+  padding: 60px 0;
   background-color: #2f303a;
+}
+
+.logo-move {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .logo-studio {
