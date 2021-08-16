@@ -25,6 +25,7 @@ body {
 h1,
 h2,
 h3,
+p,
 ul {
   margin: 0;
   padding: 0;
@@ -103,13 +104,16 @@ ul {
 /* Секция герой */
 
 .hero {
-  background-color: #2f303a;
+  padding-top: 200px;
   min-height: 600px;
+  text-align: center;
+  background-color: #2f303a;
 }
 
 /* Стили к заголовку героя */
 
 .hero-title {
+  padding-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -129,8 +133,8 @@ ul {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
-  background-color: #2196f3;
   color: #ffffff;
+  background-color: #2196f3;
   cursor: pointer;
 }
 
@@ -163,6 +167,10 @@ ul {
 .team-title {
   font-size: 36px;
   line-height: 1.17;
+}
+
+.work-image {
+  display: block;
 }
 
 /* Имена членов команды */
