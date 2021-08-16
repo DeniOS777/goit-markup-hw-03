@@ -22,37 +22,39 @@
   </head>
   <body>
     <!-- Заголовок страницы с названием студии и навигацией -->
-    <header>
-      <a class="link logo" href="" lang="en"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <!-- Основная навигация -->
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="link nav-link current" href="">Студия</a>
+    <header class="page-header">
+      <div class="container">
+        <a class="link logo" href="" lang="en"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <!-- Основная навигация -->
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="link nav-link current" href="">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Почта и телефон для связи -->
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="link contacts-main" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="nav-item">
-            <a class="link nav-link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="nav-item">
-            <a class="link nav-link" href="">Контакты</a>
+          <li class="contacts-item">
+            <a class="link contacts-main" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <!-- Почта и телефон для связи -->
-      <ul class="contacts-list">
-        <li class="contacts-item">
-          <a class="link contacts-main" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contacts-item">
-          <a class="link contacts-main" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Уникальная информация на странице -->
     <main>
@@ -65,38 +67,40 @@
         <button class="hero-button" type="button">Заказать услугу</button>
       </section>
       <!-- Секция со списком особенностей (преимуществ) -->
-      <section>
-        <h2 hidden>Преимущества нашей студии</h2>
-        <ul class="features-list">
-          <li class="features-item">
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="features-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="features-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-title">Планирование</h3>
-            <p class="features-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="features-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 hidden>Преимущества нашей студии</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="features-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="features-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Планирование</h3>
+              <p class="features-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="features-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Секция о нашей работе -->
       <section>
