@@ -208,6 +208,19 @@ ul {
   background-color: #188ce8;
 }
 
+.features-list {
+  display: flex;
+}
+
+.features-item {
+  margin-right: 30px;
+  width: 270px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
 /* Подзаголовки списка преимуществ */
 
 .features-title {
