@@ -15,6 +15,8 @@ body {
   color: var(--secondary-title-color);
 }
 
+/* Контейнер для центрирования контента */
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -23,11 +25,15 @@ body {
   margin: 0 auto;
 }
 
+/* Класс для всех секций  */
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
   outline: 2px solid green;
 }
+
+/* Сброс внешних и внутренних отступов у заголовков и абзацев */
 
 h1,
 h2,
@@ -56,7 +62,7 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
-/* Логотип студии */
+/* Общие стили логотипа студии для хедера и футера */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -67,6 +73,12 @@ ul {
   color: #000000;
 }
 
+.header-logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 /* Выделение цветом части логотипа */
 
 .logo-web {
@@ -75,20 +87,41 @@ ul {
 
 .flex {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
+.nav {
+  display: flex;
+}
+
 .nav-list {
+  margin-right: 331px;
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.nav-item {
+  margin-right: 50px;
+  letter-spacing: 0.02em;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
 }
 
 .header-contacts-list {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.contacts-item {
+  margin-right: 50px;
+}
+
+.contacts-item:last-child {
+  margin-right: 0;
 }
 
 /* Ссылки навигации по страницам сайта */
@@ -100,14 +133,14 @@ ul {
   color: var(--secondary-title-color);
 }
 
-.current {
-  color: var(--accent-color);
-}
-
 /* Эффект выделения цветом при ховере и фокусе */
 
 .nav-link:hover,
 .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.current {
   color: var(--accent-color);
 }
 
