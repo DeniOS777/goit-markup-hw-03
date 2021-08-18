@@ -22,36 +22,39 @@
   </head>
   <body>
     <!-- Заголовок страницы с названием студии и навигацией -->
-    <header>
-      <a class="link logo" href="" lang="en"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="link nav-link" href="./index.html">Студия</a>
+    <header class="page-header">
+      <div class="container">
+        <a class="link logo" href="" lang="en"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <!-- Основная навигация -->
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="link nav-link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link current" href="">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Почта и телефон для связи -->
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="link contacts-main" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="nav-item">
-            <a class="link nav-link current" href="">Портфолио</a>
-          </li>
-          <li class="nav-item">
-            <a class="link nav-link" href="">Контакты</a>
+          <li class="contacts-item">
+            <a class="link contacts-main" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <!-- Почта и телефон для связи -->
-      <ul class="contacts-list">
-        <li class="contacts-item">
-          <a class="link contacts-main" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contacts-item">
-          <a class="link contacts-main" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Уникальная информация на странице -->
     <main>
@@ -179,33 +182,35 @@
     </main>
     <!-- Подвал страницы -->
     <footer class="bottom">
-      <a class="link logo" href="" lang="en"
-        ><span class="logo-web">Web</span
-        ><span class="logo-studio">Studio</span></a
-      >
-      <address class="bottom-info">
-        <ul class="contacts-list">
-          <li class="contacts-item">
-            <a
-              class="link contacts-link"
-              href="https://goo.gl/maps/KPwA6rwqmE2eZGLd6"
-              target="_blank"
-              rel="noopener noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="contacts-item">
-            <a class="link contacts-secondary" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="contacts-item">
-            <a class="link contacts-secondary" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="link logo logo-move" href="" lang="en"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
+        <address class="bottom-info">
+          <ul class="contacts-list">
+            <li class="bottom-contacts-item">
+              <a
+                class="link contacts-link"
+                href="https://goo.gl/maps/KPwA6rwqmE2eZGLd6"
+                target="_blank"
+                rel="noopener noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="bottom-contacts-item">
+              <a class="link contacts-secondary" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="bottom-contacts-item">
+              <a class="link contacts-secondary" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
