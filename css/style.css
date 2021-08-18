@@ -229,17 +229,26 @@ ul {
   color: #ffffff;
 }
 
-/* Сброс курсивного начертания в теге addres */
+/* Сброс курсивного начертания в теге address */
 
 .bottom-info {
   font-style: normal;
+}
+
+/* Отступы (margin) в списке футера кроме последнего */
+
+.bottom-contacts-item {
+  margin-bottom: 9px;
+}
+
+.bottom-contacts-item:last-child {
+  margin-bottom: 0;
 }
 
 /* Физический адрес студии */
 
 .contacts-link {
   display: inline-block;
-  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
@@ -254,7 +263,6 @@ ul {
 
 .contacts-secondary {
   display: inline-block;
-  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
