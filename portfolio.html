@@ -59,125 +59,142 @@
     <!-- Уникальная информация на странице -->
     <main>
       <!-- Секция с проектами и фильтром выбора в виде кнопок -->
-      <section>
-        <h1 hidden>Проекты</h1>
-        <!-- Фильтр выбора на странице реализован кнопками -->
-        <ul class="filter-list">
-          <li class="filter-item">
-            <button class="filter-button" type="button">Все</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">Вэб-сайты</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">Приложения</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">Дизайн</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-button" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <!-- Список проектов -->
-        <ul class="projects-list">
-          <li class="projects-item">
-            <img
-              src="./images/project-1.jpg"
-              alt="Ноутбук"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title">Технокряк</h3>
-            <p class="projects-text">Веб-сайт</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-2.jpg"
-              alt="Два человека с мячом"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title">
-              Постер <span lang="en">New Orlean vs Golden Star</span>
-            </h3>
-            <p class="projects-text">Дизайн</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-3.jpg"
-              alt="Рыба"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title">
-              Ресторан <span lang="en">Seafood</span>
-            </h3>
-            <p class="projects-text">Приложение</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-4.jpg"
-              alt="Наушники"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title">Проект <span lang="en">Prime</span></h3>
-            <p class="projects-text">Маркетинг</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-5.jpg"
-              alt="Две коробки"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title">Проект <span lang="en">Boxes</span></h3>
-            <p class="projects-text">Приложение</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-6.jpg"
-              alt="Монитор"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title" lang="en">Inspiration has no Borders</h3>
-            <p class="projects-text">Веб-сайт</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-7.jpg"
-              alt="Книга"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title">
-              Издание <span lang="en">Limited Edition</span>
-            </h3>
-            <p class="projects-text">Дизайн</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-8.jpg"
-              alt="Брелок"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title">Проект <span lang="en">LAB</span></h3>
-            <p class="projects-text">Маркетинг</p>
-          </li>
-          <li class="projects-item">
-            <img
-              src="./images/project-9.jpg"
-              alt="Работающий ноутбук"
-              width="370"
-              height="294"
-            />
-            <h3 class="projects-title" lang="en">Growing Business</h3>
-            <p class="projects-text">Приложение</p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h1 hidden>Проекты</h1>
+          <!-- Фильтр выбора на странице реализован кнопками -->
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="filter-button" type="button">Все</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Вэб-сайты</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Приложения</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Дизайн</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- Список проектов -->
+          <ul class="projects-list">
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-1.jpg"
+                alt="Ноутбук"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title">Технокряк</h3>
+              <p class="projects-text">Веб-сайт</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-2.jpg"
+                alt="Два человека с мячом"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h3>
+              <p class="projects-text">Дизайн</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-3.jpg"
+                alt="Рыба"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title">
+                Ресторан <span lang="en">Seafood</span>
+              </h3>
+              <p class="projects-text">Приложение</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-4.jpg"
+                alt="Наушники"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title">
+                Проект <span lang="en">Prime</span>
+              </h3>
+              <p class="projects-text">Маркетинг</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-5.jpg"
+                alt="Две коробки"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title">
+                Проект <span lang="en">Boxes</span>
+              </h3>
+              <p class="projects-text">Приложение</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-6.jpg"
+                alt="Монитор"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title" lang="en">
+                Inspiration has no Borders
+              </h3>
+              <p class="projects-text">Веб-сайт</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-7.jpg"
+                alt="Книга"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title">
+                Издание <span lang="en">Limited Edition</span>
+              </h3>
+              <p class="projects-text">Дизайн</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-8.jpg"
+                alt="Брелок"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title">Проект <span lang="en">LAB</span></h3>
+              <p class="projects-text">Маркетинг</p>
+            </li>
+            <li class="projects-item">
+              <img
+                class="projects-image"
+                src="./images/project-9.jpg"
+                alt="Работающий ноутбук"
+                width="370"
+                height="294"
+              />
+              <h3 class="projects-title" lang="en">Growing Business</h3>
+              <p class="projects-text">Приложение</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Подвал страницы -->
