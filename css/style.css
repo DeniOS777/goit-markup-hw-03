@@ -38,15 +38,9 @@ ul {
   padding: 0;
 }
 
-/* Сброс стилей списков навигации, коммуникации, преимуществ, нашей работы, команды, фильтра проектов, проектов */
+/* Сброс стилей списков */
 
-.nav-list,
-.contacts-list,
-.features-list,
-.work-list,
-.team-list,
-.filter-list,
-.projects-list {
+.list {
   list-style: none;
 }
 
@@ -69,6 +63,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -76,6 +71,24 @@ ul {
 
 .logo-web {
   color: var(--accent-color);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-contacts-list {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Ссылки навигации по страницам сайта */
@@ -131,6 +144,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
 }
@@ -147,6 +161,7 @@ ul {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
@@ -165,6 +180,7 @@ ul {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -173,6 +189,7 @@ ul {
 .features-text {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
@@ -191,6 +208,7 @@ ul {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .work-image {
@@ -210,6 +228,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* Профессии членов команды */
@@ -217,6 +236,7 @@ ul {
 .member-text {
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
@@ -240,6 +260,7 @@ ul {
 
 .bottom-info {
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 /* Отступы (margin) в списке футера кроме последнего */
