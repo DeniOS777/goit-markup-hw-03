@@ -33,7 +33,7 @@ body {
   outline: 2px solid green;
 }
 
-/* Сброс внешних и внутренних отступов у заголовков и абзацев */
+/* Сброс внешних и внутренних отступов у заголовков, абзацев и списков */
 
 h1,
 h2,
@@ -73,6 +73,8 @@ ul {
   color: #000000;
 }
 
+/* Отступы для лого в хедере */
+
 .header-logo {
   margin-right: 93px;
   padding-top: 24px;
@@ -85,25 +87,35 @@ ul {
   color: var(--accent-color);
 }
 
+/* Общий флекс контейнер хедера */
+
 .header-flex {
   display: flex;
   align-items: center;
 }
+
+/* Флекс на навигацию и список навигации */
 
 .nav,
 .nav-list {
   display: flex;
 }
 
+/* Горизонтальные отступы в ссылках навигации */
+
 .nav-item:not(:last-child) {
   margin-right: 50px;
   letter-spacing: 0.02em;
 }
 
+/* Горизонтальный отступ к контактам хедера */
+
 .header-contacts-list {
   display: flex;
   margin-left: auto;
 }
+
+/* Горизонтальный отступ между постой и телефоном */
 
 .contacts-item:not(:last-child) {
   margin-right: 50px;
@@ -125,6 +137,8 @@ ul {
 .nav-link:focus {
   color: var(--accent-color);
 }
+
+/* Подсвечивание текущей страницы */
 
 .current {
   color: var(--accent-color);
@@ -195,14 +209,20 @@ ul {
   background-color: #188ce8;
 }
 
+/* Флекс на список преимуществ */
+
 .features-list {
   display: flex;
 }
+
+/* Горизонтальный отступ между разделами преимуществ */
 
 .features-item {
   margin-right: 30px;
   width: 270px;
 }
+
+/* Сброс последнего маржина в списке преимуществ */
 
 .features-item:last-child {
   margin-right: 0;
@@ -227,17 +247,21 @@ ul {
   color: var(--text-color);
 }
 
-/* Заголовок секции о нашей работе и команде */
+/* Сброс верхнего паддинга в секции о нашей работе */
 
 .work-section {
   padding-top: 0;
 }
+
+/* Флекс на список о нашей работе */
 
 .work-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* Заголовок секции о нашей работе и команде */
 
 .work-title,
 .team-title {
@@ -247,20 +271,51 @@ ul {
   letter-spacing: 0.03em;
 }
 
+/* Флекс на список */
+
 .work-list {
   display: flex;
 }
+
+/* Горизонтальный отступ между картинками */
 
 .work-item:not(:last-child) {
   margin-right: 30px;
 }
 
+/* Приобразование изображени в блочные элементы */
+
 .work-image {
   display: block;
 }
 
+/* Фон секции с командой */
+
 .team-background {
   background-color: #f5f4fa;
+}
+
+.team-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-item {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Фото членов команды */
@@ -288,17 +343,21 @@ ul {
   color: var(--text-color);
 }
 
-/* Подвал страницы */
+/* |||||||||||||||||||||   П О Д В А Л  С Т Р А Н И Ц Ы   ||||||||||||||||||||| */
 
 .bottom {
   padding: 60px 0;
   background-color: #2f303a;
 }
 
+/* Преобразование из строчного в блочный элемент */
+
 .logo-move {
   display: block;
   margin-bottom: 20px;
 }
+
+/* Выделение белым цветом studio */
 
 .logo-studio {
   color: #ffffff;
