@@ -85,48 +85,34 @@ ul {
   color: var(--accent-color);
 }
 
-.flex {
+.header-flex {
   display: flex;
   align-items: center;
 }
 
-.nav {
-  display: flex;
-}
-
+.nav,
 .nav-list {
-  margin-right: 331px;
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
-.nav-item {
+.nav-item:not(:last-child) {
   margin-right: 50px;
   letter-spacing: 0.02em;
 }
 
-.nav-item:last-child {
-  margin-right: 0;
-}
-
 .header-contacts-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-left: auto;
 }
 
-.contacts-item {
+.contacts-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.contacts-item:last-child {
-  margin-right: 0;
 }
 
 /* Ссылки навигации по страницам сайта */
 
 .nav-link {
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -147,6 +133,7 @@ ul {
 /* Главная почта и телефон */
 
 .contacts-main {
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -242,12 +229,14 @@ ul {
 
 /* Заголовок секции о нашей работе и команде */
 
-.team-background {
-  background-color: #f5f4fa;
-}
-
 .work-section {
   padding-top: 0;
+}
+
+.work-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work-title,
@@ -258,8 +247,20 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.work-list {
+  display: flex;
+}
+
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .work-image {
   display: block;
+}
+
+.team-background {
+  background-color: #f5f4fa;
 }
 
 /* Фото членов команды */
