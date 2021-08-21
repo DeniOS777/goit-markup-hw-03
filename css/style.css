@@ -24,7 +24,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid tomato;
 }
 
 /* Класс для всех секций  */
@@ -32,7 +31,6 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 2px solid green;
 }
 
 /* Сброс внешних и внутренних отступов у заголовков, абзацев и списков */
