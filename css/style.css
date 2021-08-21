@@ -481,6 +481,7 @@ img {
 
 .projects-card-content {
   padding: 20px 24px;
+
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -499,6 +500,7 @@ img {
 
 .projects-title {
   margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
