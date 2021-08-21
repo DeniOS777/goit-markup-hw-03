@@ -455,31 +455,36 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
 }
 
 /* Стили к списку проектов */
 
 .projects-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-
-  background-color: #ffffff;
+  flex-basis: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
-/* Карточка проектов */
+/* Сброс правых отступов */
 
-.projects-card {
-  background-color: #ffffff;
+.projects-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* Сброс нижних отступов */
+
+.projects-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 /* Отступы под карточкой проекта */
 
 .projects-card-content {
   padding: 20px 24px;
-  outline: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  background-color: white;
 }
 
 /* Эффект выделения цветом при ховере и фокусе */
