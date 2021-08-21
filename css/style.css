@@ -62,6 +62,19 @@ img {
   text-decoration: none;
 }
 
+/* Скрытие заголовков */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 /* ||||||||||||||||||||||||||||||||| Х Е Д Е Р ||||||||||||||||||||||||||||||| */
 
 /* Нижняя рамка у хедера */
@@ -241,7 +254,7 @@ img {
 
 .features-title {
   margin-bottom: 10px;
-
+  font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
 }
