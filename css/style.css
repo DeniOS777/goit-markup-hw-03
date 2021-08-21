@@ -12,6 +12,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
 
@@ -21,8 +23,8 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
   margin: 0 auto;
+  outline: 1px solid tomato;
 }
 
 /* Класс для всех секций  */
@@ -75,7 +77,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -97,6 +98,7 @@ img {
 
 .header-flex {
   display: flex;
+
   align-items: center;
 }
 
@@ -111,10 +113,9 @@ img {
 
 .nav-item:not(:last-child) {
   margin-right: 50px;
-  letter-spacing: 0.02em;
 }
 
-/* Горизонтальный отступ к контактам хедера */
+/* Флекс списка контактов и горизонтальный отступ к контактам хедера */
 
 .header-contacts-list {
   display: flex;
@@ -131,9 +132,10 @@ img {
 
 .nav-link {
   padding: 32px 0;
+
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--secondary-title-color);
 }
 
@@ -154,8 +156,8 @@ img {
 
 .contacts-main {
   padding: 32px 0;
+
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -175,6 +177,7 @@ img {
 .hero {
   padding-top: 200px;
   min-height: 600px;
+
   text-align: center;
   background-color: #2f303a;
 }
@@ -184,6 +187,7 @@ img {
 .hero-title {
   margin-bottom: 30px;
   min-height: 120px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -196,18 +200,20 @@ img {
 
 .hero-button {
   padding: 10px 32px;
-  border-style: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   min-width: 200px;
   min-height: 50px;
+
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+
   cursor: pointer;
+  border-style: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Эффект выделения кнопки цветом при ховере и фокусе */
@@ -235,18 +241,15 @@ img {
 
 .features-title {
   margin-bottom: 10px;
-  font-size: 14px;
+
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 /* Текс в подзаголовках преимуществ */
 
 .features-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
@@ -263,9 +266,9 @@ img {
 .work-title,
 .team-title {
   margin-bottom: 50px;
+
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -303,6 +306,7 @@ img {
 .team-item {
   flex-basis: calc(100% / 4);
   margin-left: 30px;
+
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -313,6 +317,7 @@ img {
 
 .team-item-content {
   padding: 30px 0;
+
   text-align: center;
 }
 
@@ -320,10 +325,10 @@ img {
 
 .member-title {
   margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 /* Профессии членов команды */
@@ -331,7 +336,6 @@ img {
 .member-text {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
@@ -339,6 +343,7 @@ img {
 
 .bottom {
   padding: 60px 0;
+
   background-color: #2f303a;
 }
 
@@ -359,7 +364,6 @@ img {
 
 .bottom-info {
   font-style: normal;
-  letter-spacing: 0.03em;
 }
 
 /* Отступы (margin) в списке футера кроме последнего */
@@ -376,7 +380,7 @@ img {
 
 .contacts-link {
   display: inline-block;
-  font-size: 14px;
+
   line-height: 1.71;
   color: #ffffff;
 }
@@ -390,7 +394,7 @@ img {
 
 .contacts-secondary {
   display: inline-block;
-  font-size: 14px;
+
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -409,6 +413,7 @@ img {
 .filter-list {
   display: flex;
   margin-bottom: 35px;
+
   justify-content: center;
 }
 
@@ -422,11 +427,13 @@ img {
 
 .filter-button {
   padding: 6px 22px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: #212121;
   background-color: var(--button-bg-color);
+
   cursor: pointer;
   border-style: none;
   border-radius: 4px;
@@ -444,10 +451,11 @@ img {
 /* Стили к списку проектов */
 
 .projects-item {
-  background-color: #ffffff;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+
+  background-color: #ffffff;
 }
 
 /* Карточка проектов */
@@ -467,8 +475,8 @@ img {
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: #2196f3;
   color: #ffffff;
+  background-color: #2196f3;
 }
 
 /* Названия проектов */
@@ -477,6 +485,7 @@ img {
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--secondary-title-color);
 }
 
