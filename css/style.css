@@ -8,6 +8,29 @@
   --button-bg-color: #f5f4fa;
 }
 
+/* Сброс внешних и внутренних отступов у заголовков, абзацев и списков */
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
 /* Задание правил для тэга body */
 
 body {
@@ -31,33 +54,6 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-/* Сброс внешних и внутренних отступов у заголовков, абзацев и списков */
-
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-}
-
-/* Сброс стилей списков */
-
-.list {
-  list-style: none;
-}
-
-/* Сброс стилей ссылок */
-
-.link {
-  text-decoration: none;
 }
 
 /* Скрытие заголовков */
@@ -186,8 +182,8 @@ img {
 /* Стили к секции герой */
 
 .hero {
+  padding-bottom: 200px;
   padding-top: 200px;
-  min-height: 600px;
 
   text-align: center;
   background-color: #2f303a;
@@ -350,9 +346,9 @@ img {
   color: var(--text-color);
 }
 
-/* |||||||||||||||||||||   П О Д В А Л   С Т Р А Н И Ц Ы   ||||||||||||||||||||| */
+/* |||||||||||||||||||||   Ф У Т Е Р   С Т Р А Н И Ц Ы   ||||||||||||||||||||| */
 
-.bottom {
+.footer {
   padding: 60px 0;
 
   background-color: #2f303a;
@@ -373,25 +369,19 @@ img {
 
 /* Сброс курсивного начертания в теге address */
 
-.bottom-info {
+.footer-info {
   font-style: normal;
 }
 
 /* Отступы (margin) в списке футера кроме последнего */
 
-.bottom-contacts-item {
+.footer-contacts-item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.bottom-contacts-item:last-child {
-  margin-bottom: 0;
 }
 
 /* Физический адрес студии */
 
 .contacts-link {
-  display: inline-block;
-
   line-height: 1.71;
   color: #ffffff;
 }
@@ -423,7 +413,7 @@ img {
 
 .filter-list {
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 
   justify-content: center;
 }
@@ -481,7 +471,7 @@ img {
 
 /* Отступы под карточкой проекта */
 
-.projects-card-content {
+.projects-content {
   padding: 20px 24px;
 
   border-bottom: 1px solid #eeeeee;
